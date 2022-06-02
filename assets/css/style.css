@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --dark:#2b2d42;
+    --light:#abd5bd;
+    --border:#dee2e6;
+    --border-btn:#edf2f4;
+}
+*{
+ 
+    box-sizing: border-box;  
+    align-content: center;
+   }
+   a{
+    text-decoration: none;  
+    
+  }
+  .container{
+    max-width: 1024px;
+    margin: 0;
+    }
+    .nav-brand {
+        align-content: center;
+        font-size: 1.5em;
+        text-align: center;
+        font-weight: bold;
+        }
+
+        .d-flex-justify-between{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .btn border-shadow delete{
+            color: rgb(255, 0, 0);
+            border: 1px;
+            box-shadow: 1px 3px 10px #ece9e9;
+        }
+        .text-gradient{
+            background: linear-gradient(to right,#8e2de2);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: rgb(210, 26, 26);
+        }
+        #header{
+            background-color: aqua;
+            padding: 1em 0;
+            width: 100%;
+        }
+        #site-main{
+            margin-top: 5em;
+            font-family: sans-serif;
+        }
+        #site-main.container.box-nav>a{
+           font-size: 2em 0; 
+        }
+        #title{
+           color: #8e2de2; 
+           margin-left: 0%;
+        }
+        .table{
+            border-spacing: 0;
+            width: 150%;
+            text-align: center;
+        }
+         .table td, .table th{
+            padding: .75em;
+            vertical-align: top;
+            text-align: center;
+            border-top: 1px solid var(--border);
+        }
+        .table td>a.btn{
+            padding: 3em 1em;
+            font-size: 1.1em;
+            margin: 0 .2em;
+        }
+.table tr:hover{
+background-color: #8e2de2;
+}
+.thead-dark th{
+    color: #fff;
+    background-color: var(--dark);
+    border-color: #8e2de2;
+}
+/* add user & update user template*/
+.form-title{
+margin-top: 2em;
+}
+.form-title>h2{
+    padding: 5em 2 ;
+}
+.new-user{
+    max-width: 1024px;
+    margin: auto;
+}
+#update_user.form-group input[type='text']{
+    width: 100%;
+    padding: .6em 1em;
+    margin:.5em 0 ;
+    border: 1px solid var(--border);
+font-size: 1em;
+border-radius: .2em;
+font-family:'Barlow',sans-serif;
+}
+#update_user.form-group.btn{
+    background-color: aqua;
+    width: 50%;
+    padding: .9em 1em;
+    border: #8e2de2;
+    font-family:'Barlow',sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 2em;
+    margin: 5em 0;
+}
