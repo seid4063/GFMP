@@ -29,10 +29,14 @@ app.use('/js',express.static(path.resolve(__dirname,"assets/js")))
 app.get('/',(req,res)=>{
 res.render('index');
 });
-
+  //add_ user
 app.get('/add-user',(req,res)=>{
     res.render('add_user');
     });
     
+    //update_ user
+    app.get('/update-user',(req,res)=>{
+        res.render('update_user');
+        });
 
 app.listen( 8080,()=>{console.log('server is running on http://localhost:8080')});
